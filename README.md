@@ -33,7 +33,7 @@ Ce script automatise l'envoi d'invitations LinkedIn ciblées (notamment pour les
 
 1. Clonez ce dépôt :
    ```bash
-   git clone [https://github.com/maximeKets/linkedin-automation-bot](https://github.com/maximeKets/linkedin-automation-bot.git)
+   git clone https://github.com/maximeKets/linkedin-automation-bot
    cd linkedin-automation-bot
    ```
 

@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environnements virtuels (uv, venv, etc.)
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Fichiers spécifiques au Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fichiers spécifiques à l'IDE (PyCharm / IntelliJ)
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Fichiers d'environnement (si tu décides d'en utiliser un jour)
+.env
+.env.*
+!.env.example
+
+# Logs et bases de données locales (le cas échéant)
+*.log
+*.sqlite3

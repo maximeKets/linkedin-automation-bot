@@ -1,0 +1,20 @@
+[project]
+name = "linkedin-automation-bot"
+version = "0.1.0"
+description = "LinkedIn connection automation script using CV"
+readme = "README.md"
+requires-python = "==3.12.*"
+dependencies = [
+    "pyautogui>=0.9.54",
+    "pyperclip>=1.8.2",
+    "opencv-python>=4.9.0.80",
+    "pillow>=12.1.1",
+    "pyscreeze>=1.0.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = false

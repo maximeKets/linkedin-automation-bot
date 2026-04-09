@@ -6,6 +6,8 @@
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?logo=opencv&logoColor=white)](https://opencv.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GHCR](https://img.shields.io/badge/GHCR-Ready-2ea44f?logo=github)](https://github.com/maximeKets/linkedin-automation-bot/packages)
+[![DockerHub](https://img.shields.io/badge/DockerHub-Ready-2496ed?logo=docker)](https://hub.docker.com/r/maximeks/linkedin-automation-bot)
 
 **Un bot d'automatisation d'invitations LinkedIn reposant sur la reconnaissance visuelle (Computer Vision) et l'interaction orientée interface utilisateur (GUI Automation).**
 
@@ -66,6 +68,18 @@ Le bot observe votre écran. Il dépend de captures PNG. Si le script ne repère
 
 - Configurez le pool de messages directement dans la variable globale `MESSAGES` du fichier `main.py`.
 - Ajustez le volume d'envois journalier en modifiant le paramètre dans l'exécution finale : `run_automation(nb_invits=100)`.
+
+## 🐳 Déploiement via Docker
+
+Ce projet est distribué sous forme d'image Docker multi-architecture (AMD64 / ARM64).
+
+```bash
+# 1. Récupérer la dernière image depuis GitHub Container Registry
+docker pull ghcr.io/maximeKets/linkedin-automation-bot:latest
+
+# 2. Lancer le conteneur (ajuste le port si nécessaire)
+docker run -p 8000:8000 ghcr.io/maximeKets/linkedin-automation-bot:latest
+```
 
 ---
 
